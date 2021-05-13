@@ -1,32 +1,63 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import  Styled from '@emotion/styled';
 
+
+const Nav = Styled.nav`
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+
+    @media (min-width: 768px) {
+        padding: 0;
+        felx-direction: row;
+    }
+`;
+
+const NavLink = Styled(Link)`
+    color: #fff;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    padding: .5rem;
+    margin-right: 1rem;
+    &:last-of-type {
+        margin-right: 0;
+    }
+`;
 
 const Navegacion = () => {
     return ( 
-        <nav>
-            <Link
-                to={'/'}            
-            >Inicio</Link>
-            <Link
+        <Nav>
+            <NavLink
+                to={'/'}
+                activeClassName="pagina-actual"    
+            >Inicio</NavLink>
+            <NavLink
                 to={'/tripulacion'}
-            >Tripulación</Link>
-            <Link
+                activeClassName="pagina-actual"
+            >Tripulación</NavLink>
+            <NavLink
                 to={'/webdevelopment'}
-            >Desarrollo Web</Link>
-            <Link
+                activeClassName="pagina-actual"
+            >Desarrollo Web</NavLink>
+            <NavLink
                 to={'/dmarketing'}
-            >Marketing Digital</Link>
-            <Link
+                activeClassName="pagina-actual"
+            >Marketing Digital</NavLink>
+            <NavLink
                 to={'/analytics'}
-            >Analítica & Performance</Link>
-            <Link
+                activeClassName="pagina-actual"
+            >Analítica & Performance</NavLink>
+            <NavLink
                 to={'/blog'}
-            >Blog</Link>
-            <Link
+                activeClassName="pagina-actual"
+            >Blog</NavLink>
+            <NavLink
                 to={'/contact'}
-            >Contacto</Link>
-        </nav>
+                activeClassName="pagina-actual"
+            >Contacto</NavLink>
+        </Nav>
     );
 }
 
