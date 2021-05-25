@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 //import useStart from '../hooks/useStart';
 import logoTri from '../img/tripulaciontotal.png';
 const Index= () => {
