@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from '@emotion/styled';
 
@@ -56,4 +56,4 @@ const useFiltro = () => {
     }
 }
 
-export default useFiltro;
+export default useFiltro;*/

@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-dmarketing-js": preferDefault(require("/home/rosita/Documentos/GitHub/agencia/src/pages/dmarketing.js")),
   "component---src-pages-home-js": preferDefault(require("/home/rosita/Documentos/GitHub/agencia/src/pages/home.js")),
   "component---src-pages-index-js": preferDefault(require("/home/rosita/Documentos/GitHub/agencia/src/pages/index.js")),
+  "component---src-pages-nosotros-js": preferDefault(require("/home/rosita/Documentos/GitHub/agencia/src/pages/nosotros.js")),
   "component---src-pages-tripulacion-js": preferDefault(require("/home/rosita/Documentos/GitHub/agencia/src/pages/tripulacion.js")),
   "component---src-pages-webdevelopment-js": preferDefault(require("/home/rosita/Documentos/GitHub/agencia/src/pages/webdevelopment.js"))
 }

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+/*import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/core';
 import useNosotros from '../hooks/useNosotros'
 import PropiedadPreview from './propiedadPreview';
 import NosotrosCSS from '../css/nosotros.module.css';
-import useFiltro from '../hooks/useFiltro';
+//import useFiltro from '../hooks/useFiltro';
 
 const Nosotros = () => {
 
@@ -44,4 +44,4 @@ const Nosotros = () => {
      );
 }
  
-export default Nosotros;
+export default Nosotros;*/

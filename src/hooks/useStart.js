@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby';
+/*import { graphql, useStaticQuery } from 'gatsby';
 
 const useStart = () => {
     
@@ -22,4 +22,4 @@ const useStart = () => {
     console.log(result);
 }
 
-export default useStart;
+export default useStart;*/

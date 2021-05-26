@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby'
+/*import { graphql, useStaticQuery } from 'gatsby'
 
 const useInicio = () => {
     
@@ -33,4 +33,4 @@ const useInicio = () => {
 
 }
  
-export default useInicio;
+export default useInicio;*/
